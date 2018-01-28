@@ -1,0 +1,6 @@
+---
+setup_prerequisites:
+  - git
+  - apt-transport-https
+  - tar
+  - sudo

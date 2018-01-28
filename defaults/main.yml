@@ -1,0 +1,13 @@
+---
+apt_default_packages:
+  - git
+  - apt-transport-https
+  - tar
+  - sudo
+yum_default_packages:
+  - git
+  - yum-cron
+  - tar
+  - sudo
+sudoers: []
+allowed_ips: []

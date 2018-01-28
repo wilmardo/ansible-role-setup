@@ -1,0 +1,7 @@
+---
+setup_prerequisites:
+  - git
+  - yum-cron
+  - tar
+  - sudo
+  - deltarpm

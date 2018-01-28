@@ -1,0 +1,9 @@
+---
+- name: Restrict SSH access by IP
+  template:
+    src: templates/hosts.allow.j2
+    dest: /etc/hosts.allow
+  when: test is not defined
+
+# TODO: remove root login over ssh
+# TODO: disable password login over ssh
